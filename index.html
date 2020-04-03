@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>JavaScript Command</title>
+
+		<!--CSS linked file-->
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="style.css">
+		<!--CSS linked file-->
+	</head>
+	<body>
+		<div class="jspoint">
+			<div class="container">
+				<h1>JavaScript Command</h1>
+				<div class="col-50">
+					<div class="box1">
+						<button id="on" onclick="lighton()">Light On</button>
+						<br>
+						<button id="off" onclick="lightoff()">Light Off</button>
+					</div>
+				</div>
+				<div class="col-50">
+					<div class="box2">
+						<i id="light" class="far fa-lightbulb style="color: blue"></i>
+						<div id="result"></div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<h1>Employee Entry</h1>
+				<div class="col-50">
+					<div class="box1">
+						<form onsubmit="return studnet_entry()">
+							<input id="sname" type="text" placeholder="Employee Name">
+							<input id="sroll" type="text" placeholder="Employee ID">
+							<input id="sclass" type="text" placeholder="Group">
+							<input type="submit" value="Add employee">
+						</form>
+					</div>
+				</div>
+				<div class="col-50">
+					<div class="box2">
+						<h2>Employee Data</h2>
+						<table id="sresult" align="center" border="1" cellpadding="10">
+							<tr>
+								<th>Employee Name</th>
+								<th>Employee Id</th>
+								<th>Group</th>
+							</tr>
+							<tr>
+								<td>Md Nur Alam</td>
+								<td>940524</td>
+								<td>Electrical</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				</div>
+		</div>
+		<script type="text/javascript" src="js/scripts.js">
+		</script>
+	</body>
+</html>

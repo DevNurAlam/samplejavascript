@@ -1,0 +1,128 @@
+/*default css start*/
+
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.container{
+	width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.container:before,
+.container:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.col-50{
+	width: 50%;
+	float: left;
+	padding:0 15px;
+}
+
+h1{
+	background: pink;
+	color: blue;
+	border: 1px solid green;
+	border-radius: 20px;
+}
+
+h2{
+	color: green;
+	font-weight: 500px;
+}
+/*default css end */
+
+/*styles*/
+
+.box1{
+	background: yellow;
+	border:1px solid blue;
+	border-radius: 4px;
+	height: 400px;
+	margin:20px 0;
+	position: relative;
+}
+
+.box2{
+	background: skyblue;
+	border:1px solid red;
+	border-radius: 4px;
+	height: 400px;
+	margin:20px 0;
+}
+
+#light{
+	font-size: 200px;
+	margin-top: 70px;
+	color: #002bff;
+	text-shadow:3px 6px #ff005e;
+}
+
+element.style {
+    color: blue;
+}
+button#on{
+	padding:10px;
+	background: green;
+	color: white;
+	margin:10px 0;
+	border: 1px solid pink;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 150px;
+}
+
+button#off{
+	padding:10px;
+	background: red;
+	color: white;
+	margin:10px 0;
+	border: 1px solid pink;
+	border-radius: 10px;
+	cursor: pointer;
+}
+form{
+	position: relative;
+	left: 30%;
+	top:10%;
+}
+.box1 input{
+	margin:10px 10px;
+	padding:5px;
+	display: block;
+}
+.box1 input[type="submit"]{
+	background: green;
+	border: none;
+	color: white;
+	padding:5px 10px;
+	cursor: pointer;
+	border: 2px solid red;
+	border-radius: 10px;
+}
+
+tr{
+	background: white;
+}
+ 
